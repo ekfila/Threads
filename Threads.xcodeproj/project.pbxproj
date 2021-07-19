@@ -16,6 +16,12 @@
 		E5203E06269CB16A00D46F1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5203E04269CB16A00D46F1C /* LaunchScreen.storyboard */; };
 		E5203E11269CB16B00D46F1C /* ThreadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5203E10269CB16B00D46F1C /* ThreadsTests.swift */; };
 		E5203E1C269CB16B00D46F1C /* ThreadsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5203E1B269CB16B00D46F1C /* ThreadsUITests.swift */; };
+		E5203E2A269D7EFB00D46F1C /* LoadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5203E29269D7EFB00D46F1C /* LoadImageViewController.swift */; };
+		E5203E2C269D923000D46F1C /* BlurImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5203E2B269D923000D46F1C /* BlurImageViewController.swift */; };
+		E5203E2E26A0582000D46F1C /* PrimeNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5203E2D26A0582000D46F1C /* PrimeNumbersViewController.swift */; };
+		E5203E3026A074B400D46F1C /* PrimeNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5203E2F26A074B400D46F1C /* PrimeNumbers.swift */; };
+		E5203E3226A0A2DF00D46F1C /* QueueOfTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5203E3126A0A2DF00D46F1C /* QueueOfTasks.swift */; };
+		E5203E3426A585DA00D46F1C /* QueueOfTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5203E3326A585DA00D46F1C /* QueueOfTasksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		E5203E17269CB16B00D46F1C /* ThreadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5203E1B269CB16B00D46F1C /* ThreadsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsUITests.swift; sourceTree = "<group>"; };
 		E5203E1D269CB16B00D46F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5203E29269D7EFB00D46F1C /* LoadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImageViewController.swift; sourceTree = "<group>"; };
+		E5203E2B269D923000D46F1C /* BlurImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurImageViewController.swift; sourceTree = "<group>"; };
+		E5203E2D26A0582000D46F1C /* PrimeNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumbersViewController.swift; sourceTree = "<group>"; };
+		E5203E2F26A074B400D46F1C /* PrimeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumbers.swift; sourceTree = "<group>"; };
+		E5203E3126A0A2DF00D46F1C /* QueueOfTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueOfTasks.swift; sourceTree = "<group>"; };
+		E5203E3326A585DA00D46F1C /* QueueOfTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueOfTasksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,12 @@
 				E5203DF8269CB16500D46F1C /* SceneDelegate.swift */,
 				E5203DFA269CB16500D46F1C /* ViewController.swift */,
 				E5203DFC269CB16500D46F1C /* Main.storyboard */,
+				E5203E29269D7EFB00D46F1C /* LoadImageViewController.swift */,
+				E5203E2B269D923000D46F1C /* BlurImageViewController.swift */,
+				E5203E2F26A074B400D46F1C /* PrimeNumbers.swift */,
+				E5203E2D26A0582000D46F1C /* PrimeNumbersViewController.swift */,
+				E5203E3126A0A2DF00D46F1C /* QueueOfTasks.swift */,
+				E5203E3326A585DA00D46F1C /* QueueOfTasksViewController.swift */,
 				E5203E02269CB16A00D46F1C /* Assets.xcassets */,
 				E5203E04269CB16A00D46F1C /* LaunchScreen.storyboard */,
 				E5203E07269CB16A00D46F1C /* Info.plist */,
@@ -262,8 +280,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5203DFB269CB16500D46F1C /* ViewController.swift in Sources */,
+				E5203E2E26A0582000D46F1C /* PrimeNumbersViewController.swift in Sources */,
+				E5203E3426A585DA00D46F1C /* QueueOfTasksViewController.swift in Sources */,
+				E5203E3226A0A2DF00D46F1C /* QueueOfTasks.swift in Sources */,
 				E5203DF7269CB16500D46F1C /* AppDelegate.swift in Sources */,
 				E5203DF9269CB16500D46F1C /* SceneDelegate.swift in Sources */,
+				E5203E2C269D923000D46F1C /* BlurImageViewController.swift in Sources */,
+				E5203E2A269D7EFB00D46F1C /* LoadImageViewController.swift in Sources */,
+				E5203E3026A074B400D46F1C /* PrimeNumbers.swift in Sources */,
 				E5203E01269CB16500D46F1C /* Threads.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
